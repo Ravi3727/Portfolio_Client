@@ -9,7 +9,7 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 import {AiOutlineMail } from "react-icons/ai";
 import AOS from 'aos';
 import { Link } from "react-router-dom";
-import Myimage from '../assets/profilePic.png';
+import Myimage from '../assets/myPic.png';
 import 'aos/dist/aos.css';
 AOS.init();
 

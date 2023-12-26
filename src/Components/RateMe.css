@@ -1,0 +1,19 @@
+/* Define CSS for laptops or larger screens */
+@media (min-width: 768px) {
+    .hide-on-mobile {
+      display: block; /* Show the components on laptops or larger screens */
+    }
+    .show-on-desktop {
+      display: none; /* Hide the components on laptops or larger screens */
+    }
+  }
+  
+  /* Define CSS for phones or smaller screens */
+  @media (max-width: 767px) {
+    .hide-on-mobile {
+      display: none; /* Hide the components on phones or smaller screens */
+    }
+    .show-on-desktop {
+      display: block; /* Show the components on phones or smaller screens */
+    }
+  }

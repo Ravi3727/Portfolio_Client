@@ -60,7 +60,7 @@ function HeroSection() {
             <Link to="/connect">
               <button className=' hover:scale-110 transition-transform duration-2000 w-40 h-10 bg-orange-400 rounded-lg border-1 border-solid text-white hover:bg-orange-500 text-xl'>Connect</button></Link>
             <button className='hover:scale-110 transition-transform duration-2000 w-40 h-10 bg-orange-400 rounded-lg border-1 border-solid text-white hover:bg-orange-500 flex justify-evenly p-2 text-xl'>
-              <div><a href="https://drive.google.com/file/d/1elPKvt9W22YMQqSi10bDCSViDk0sxX4Y/view?usp=sharing" target='blank'>Resume</a></div>
+              <div><a href="https://publuu.com/flip-book/346783/795284/page/1" target='blank'>Resume</a></div>
               <div className='mt-1'>
                 <BsDownload />
               </div>

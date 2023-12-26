@@ -2,6 +2,7 @@ import React from 'react'
 import { useContext } from "react";
 import { AppContext } from '../App';
 import ProjectOne from './ProjectOne';
+import CommingSoon from './CommingSoon';
 
 
 
@@ -26,15 +27,12 @@ function Project() {
                     <div className=' lg:w-[300px] w-[170px] h-[3.5px] bg-yellow-400 opacity-0 group-hover:opacity-100'></div>
                 </div>
 
-                <div className='flex lg:flex-row flex-col  lg:gap-4 gap-40 h-full'>
+                <div className='flex lg:flex-row flex-col  lg:gap-8 gap-40 h-full'>
                 <div className='lg:mt-0 p-1 mt-6 rounded-lg flex lg:flex-row flex-col m-3 lg:m-0 justify-evenly lg:gap-10 h-full '>
                     <ProjectOne {...cardData1}/>
                 </div>
                 <div className='lg:mt-0 p-1 mt-6 rounded-lg flex lg:flex-row flex-col m-3 lg:m-0 justify-evenly lg:gap-10 h-full'>
-                    <ProjectOne {...cardData1}/>
-                </div>
-                <div className='lg:mt-0 p-1 mt-6 rounded-lg flex lg:flex-row flex-col m-3 lg:m-0 justify-evenly lg:gap-10 h-full'>
-                    <ProjectOne {...cardData1}/>
+                    <CommingSoon/>
                 </div>
 
                 </div>

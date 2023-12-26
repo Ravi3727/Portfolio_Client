@@ -77,9 +77,9 @@ function HeroSection() {
         </div>
 
         {/* Image */}
-        <div data-aos="flip-down"
+        <div data-aos="zoom-out"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000" className=''>
+          data-aos-duration="1000" className=''>
           {/* porfolio image */}
           <img src={Myimage} alt='ar' className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:-translate-x-1 duration-1000 border-1 border-collapse shadow-sm-light rounded-md lg:w-[400px] w-[200px] lg:h-[500px] h-[300px] lg:mr-60 lg:-ml-36 lg:mt-6 mt-20 overflow-y-hidden overflow-x-hidden'/>
         </div>

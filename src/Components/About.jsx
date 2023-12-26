@@ -1,5 +1,5 @@
 import React from 'react'
-import About1 from "../assets/About Me.svg";
+import About1 from "../assets/AboutMe.svg";
 import { useContext } from "react";
 import { AppContext } from '../App';
 import AOS from 'aos';

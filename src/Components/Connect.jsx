@@ -26,8 +26,6 @@ function Connect() {
     const PostData = async (e) => {
         e.preventDefault();
         try {
-
-        setLoading(true);
         if (name.length > 0 && msg.length > 0 && email.length > 0) {
                 setLoading(true);
                 await Axios.post('https://portfoli-server-3d31.onrender.com/ravi/v1/connectMe', {

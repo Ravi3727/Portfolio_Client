@@ -48,18 +48,18 @@ function HeroSection() {
 
         {/* content */}
         <div data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom" className='flex flex-col w-full h-full  border-1 lg:items-start items-center p-2 gap-4 mt-6  border-black lg:mr-20 mr-0 '>
-          <h1 className='lg:text-6xl text-3xl lg:mt-4 mt-2 font-extrabold h-12 '>Hey There!!</h1>
-          <h1 className='lg:text-6xl text-3xl lg:mt-10 mt-2 font-extrabold h-12'>I Am Ravikant</h1>
-          <div className='items-start h-12 lg:ml-0 ml-2 lg:mt-10 mt-2 text-2xl mb-3 lg:mb-0'>
+          data-aos-anchor-placement="top-bottom" className='flex flex-col w-full h-full  border-1 lg:items-start items-center p-2 gap-2 mt-6  border-black lg:mr-20 mr-0 '>
+          <h1 className='lg:text-6xl text-2xl lg:mt-4  font-extrabold h-12 '>Hi There !</h1>
+          <h1 className='lg:text-6xl text-2xl lg:mt-10 font-extrabold h-12'>I Am Ravi</h1>
+          <div className='items-start h-12 lg:ml-0 ml-2 lg:mt-10 mt-2 text-xl lg:text-2xl mb-3 lg:mb-0'>
             <TypeWriter />
           </div>
-          <h1 className='lg:text-2xl text-xl lg:mt-4 mt-2 mb-4 lg:mb-0 font-semibold h-6'>Currently I Am Learning Data Science</h1>
+          <h1 className='lg:text-2xl text-lg lg:mt-4 mt-2 mb-4 lg:mb-0 font-semibold h-6'>Currently I Am Learning Data Science</h1>
 
           <div className='flex gap-4 justify-center items-center lg:mb-12 lg:h-28 mt-6 flex-wrap'>
             <Link to="/connect">
-              <button className=' hover:scale-110 transition-transform duration-2000 w-40 h-10 bg-orange-400 rounded-lg border-1 border-solid text-white hover:bg-orange-500 text-xl'>Connect</button></Link>
-            <button className='hover:scale-110 transition-transform duration-2000 w-40 h-10 bg-orange-400 rounded-lg border-1 border-solid text-white hover:bg-orange-500 flex justify-evenly p-2 text-xl'>
+              <button className=' hover:scale-110 transition-transform duration-2000 w-32 lg:w-40 h-10 bg-orange-400 rounded-lg border-1 border-solid text-white hover:bg-orange-500 text-xl'>Connect</button></Link>
+            <button className='hover:scale-110 transition-transform duration-2000 w-32 lg:w-40 h-10 bg-orange-400 rounded-lg border-1 border-solid text-white hover:bg-orange-500 flex justify-evenly p-2 text-xl'>
               <div><a href="https://publuu.com/flip-book/346783/795284/page/1" target='blank'>Resume</a></div>
               <div className='mt-1'>
                 <BsDownload />
@@ -69,10 +69,10 @@ function HeroSection() {
 
           </div>
           <div className='flex gap-3 justify-center items-center flex-wrap lg:-mt-20 mt-7 lg:ml-0'>
-            <div className='text-5xl  text-orange-400 hover:text-orange-500'><a href="https://www.linkedin.com/in/ravi-kant2705/" target='blank'><AiOutlineLinkedin/></a></div>
-            <div className='text-5xl  text-orange-400 hover:text-orange-500'><a href="https://www.instagram.com/ravi2705_/"target='blank' ><AiOutlineInstagram/></a></div>             
-            <div className='text-5xl  text-orange-400 hover:text-orange-500' ><a href="https://github.com/Ravi3727" target='blank'><AiOutlineGithub/></a></div>
-            <div className='text-5xl  text-orange-400 hover:text-orange-500'><a href="mailto:rk3727000@gmail.com" target='blank'><AiOutlineMail/></a></div>
+            <div className='text-4xl lg:text-5xl  text-orange-400 hover:text-orange-500'><a href="https://www.linkedin.com/in/ravi-kant2705/" target='blank'><AiOutlineLinkedin/></a></div>
+            <div className='text-4xl lg:text-5xl  text-orange-400 hover:text-orange-500'><a href="https://www.instagram.com/ravi2705_/"target='blank' ><AiOutlineInstagram/></a></div>             
+            <div className='text-3xl  text-orange-400 hover:text-orange-500' ><a href="https://github.com/Ravi3727" target='blank'><AiOutlineGithub/></a></div>
+            <div className='text-4xl lg:text-5xl  text-orange-400 hover:text-orange-500'><a href="mailto:rk3727000@gmail.com" target='blank'><AiOutlineMail/></a></div>
           </div>
         </div>
 
@@ -81,7 +81,7 @@ function HeroSection() {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000" className=''>
           {/* porfolio image */}
-          <img src={Myimage} alt='ar' className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:-translate-x-1 duration-1000 border-1 border-collapse shadow-sm-light rounded-md lg:w-[400px] w-[200px] lg:h-[500px] h-[300px] lg:mr-60 lg:-ml-36 lg:mt-6 mt-20 overflow-y-hidden overflow-x-hidden'/>
+          <img src={Myimage} alt='ar' className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:-translate-x-1 duration-1000 border-1 border-collapse shadow-sm-light rounded-md lg:w-[400px] w-[230px] lg:h-[500px] h-[350px] lg:mr-60 lg:-ml-36 lg:mt-6 mt-20 overflow-y-hidden overflow-x-hidden'/>
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ function TypeWriter() {
         options={{
             autoStart: true,
             loop: true,
-                        delay: 40,
+                        delay: 50,
                         strings: [
                          "Mern Stack Developer",
                          "DSA In C++",

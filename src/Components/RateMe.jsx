@@ -70,36 +70,36 @@ function RateUs() {
 
     let PostData1 = async (e) => {
         e.preventDefault();
-        setLoading(true);
         try {
-            if(message.length>0){
+            if (message.length > 0) {
                 // alert("Feedback Sent Successfully");
-            await Axios.post("https://portfoli-server-3d31.onrender.com/ravi/v1/feedback", {
-                message, rating
-            });
-            setLoading(false);
-            toast.success("Thank Your feedback", {
-                position: "top-center"
-            });
-            setMessage("");
-            if(checked){
-                setChecked(!checked);
-            }
-            if(checked1){
-                setChecked1(!checked1);
-            }
-            if(checked2){
-                setChecked2(!checked2);
-            }
-            if(checked3){
-                setChecked3(!checked3);
-            }
-            if(checked4){
-                setChecked4(!checked4);
-            }
-            
-            }else{
-                
+                setLoading(true);
+                await Axios.post("https://portfoli-server-3d31.onrender.com/ravi/v1/feedback", {
+                    message, rating
+                });
+                setLoading(false);
+                toast.success("Thank Your feedback", {
+                    position: "top-center"
+                });
+                setMessage("");
+                if (checked) {
+                    setChecked(!checked);
+                }
+                if (checked1) {
+                    setChecked1(!checked1);
+                }
+                if (checked2) {
+                    setChecked2(!checked2);
+                }
+                if (checked3) {
+                    setChecked3(!checked3);
+                }
+                if (checked4) {
+                    setChecked4(!checked4);
+                }
+
+            } else {
+
                 toast.error('Please Fill All Fields', {
                     position: 'top-center',
                 });
@@ -234,9 +234,9 @@ function RateUs() {
                                 <input type="submit" value="Submite" className='opacity-0' />
                                 <button type="submit" className='border-2 bordr-solid border-yellow-400 p-1 font-semibold leading-70 bg-orange-400 hover:bg-orange-500 rounded-lg
                           h-12 shadow-xl lg:ml-0 w-40'>Submit</button>
-                          <div>
-                          {loading &&<Spin/>}
-                          </div>
+                                <div>
+                                    {loading && <Spin />}
+                                </div>
                             </div>
                         </div>
 

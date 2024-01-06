@@ -78,7 +78,7 @@ function RateUs() {
                     message, rating
                 });
                 setLoading(false);
-                toast.success("Thank Your feedback", {
+                toast.success("Thank you for your feedback", {
                     position: "top-center"
                 });
                 setMessage("");

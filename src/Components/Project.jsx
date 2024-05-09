@@ -14,6 +14,11 @@ function Project() {
         description: 'Enhance your calendar experience with integrated to-dos—effortlessly manage tasks, deadlines, and priorities in one place.',
         imageUrl: "https://img.freepik.com/premium-photo/calendar-with-days-clock-wood-table_43314-1818.jpg",
       };
+    const cardData2 = {
+        title: 'Todo With Calendar',
+        description: 'Enhance your calendar experience with integrated to-dos—effortlessly manage tasks, deadlines, and priorities in one place.',
+        imageUrl: "https://img.freepik.com/premium-photo/calendar-with-days-clock-wood-table_43314-1818.jpg",
+      };
     return (
         <>
         <div className='w-full sm:flex-col justify-center items-center h-full lg:h-screen lg:overflow-hidden lg:mt-4'>
@@ -30,6 +35,9 @@ function Project() {
                 <div className='flex lg:flex-row flex-col  lg:gap-8 gap-40 h-full'>
                 <div className='lg:mt-0 p-1 mt-6 rounded-lg flex lg:flex-row flex-col m-3 lg:m-0 justify-evenly lg:gap-10 h-full '>
                     <ProjectOne {...cardData1}/>
+                </div>
+                <div className='lg:mt-0 p-1 mt-6 rounded-lg flex lg:flex-row flex-col m-3 lg:m-0 justify-evenly lg:gap-10 h-full '>
+                    <ProjectOne {...cardData2}/>
                 </div>
                 <div className='lg:mt-0 p-1 mt-6 rounded-lg flex lg:flex-row flex-col m-3 lg:m-0 justify-evenly lg:gap-10 h-full'>
                     <CommingSoon/>

@@ -3,6 +3,8 @@ import { useContext } from "react";
 import { AppContext } from '../App';
 import ProjectOne from './ProjectOne';
 import CommingSoon from './CommingSoon';
+import Dashboard_Image from "../assets/Payment_dashboard.png";
+import ProjectSecond from './ProjectSecond';
 
 
 
@@ -15,9 +17,9 @@ function Project() {
         imageUrl: "https://img.freepik.com/premium-photo/calendar-with-days-clock-wood-table_43314-1818.jpg",
       };
     const cardData2 = {
-        title: 'Todo With Calendar',
-        description: 'Enhance your calendar experience with integrated to-dos—effortlessly manage tasks, deadlines, and priorities in one place.',
-        imageUrl: "https://img.freepik.com/premium-photo/calendar-with-days-clock-wood-table_43314-1818.jpg",
+        title: 'Payment Dashboard UI',
+        description: 'A simple and clean dashboard of payments with side navigation bar',
+        imageUrl: Dashboard_Image,
       };
     return (
         <>
@@ -37,7 +39,7 @@ function Project() {
                     <ProjectOne {...cardData1}/>
                 </div>
                 <div className='lg:mt-0 p-1 mt-6 rounded-lg flex lg:flex-row flex-col m-3 lg:m-0 justify-evenly lg:gap-10 h-full '>
-                    <ProjectOne {...cardData2}/>
+                    <ProjectSecond {...cardData2}/>
                 </div>
                 <div className='lg:mt-0 p-1 mt-6 rounded-lg flex lg:flex-row flex-col m-3 lg:m-0 justify-evenly lg:gap-10 h-full'>
                     <CommingSoon/>

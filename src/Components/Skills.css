@@ -109,7 +109,7 @@
   }
 }
 
-.level6 {
+/* .level6 {
   height: 3.5px;
   background-color: orangered;
   animation: level6 11s ease-in-out infinite;
@@ -124,7 +124,7 @@
   100% {
     width: 230px;
   }
-}
+} */
 
 .level7 {
   height: 3.5px;
@@ -140,5 +140,41 @@
   }
   100% {
     width: 140px;
+  }
+}
+
+
+.level8 {
+  height: 3.9px;
+  background-color: orangered;
+  animation: level8 11s ease-in infinite;
+}
+@keyframes level8 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 300px;
+  }
+  100% {
+    width: 300px;
+  }
+}
+
+
+.level9 {
+  height: 3.9px;
+  background-color: orangered;
+  animation: level9 11s ease-in infinite;
+}
+@keyframes level9 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 270px;
+  }
+  100% {
+    width: 270px;
   }
 }

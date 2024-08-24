@@ -40,7 +40,7 @@ function Skills() {
                         <div className='level1 '></div></div>
 
                     <div className='text-2xl text-start font-semibold p-2'>
-                        <label htmlFor="HTML">React.js/Next.js</label><span className=' p-1 rounded-full border-yellow-400 percent ml-[110px] mb-1 text-lg bg-inherit text-yellow-400'>75%</span>
+                        <label htmlFor="HTML">React.js/Next.js</label><span className=' p-1 rounded-full border-yellow-400 percent ml-[50px] mb-1 text-lg bg-inherit text-yellow-400'>75%</span>
                         <div className='level2'></div></div>
 
                     <div className='text-2xl text-start font-semibold p-2'>
@@ -81,9 +81,9 @@ function Skills() {
 
 
             </div>
-            <div className='w-[80%] lg:ml-[200px] h-68 mt-10 ml-12 gap-10 flex flex-col justify-evenly'>
+            <div className='w-[80%] lg:ml-[200px] h-full mb-4 mt-22 ml-12 gap-10 flex flex-col justify-evenly'>
                 <h1 className='text-orange-500 font-bold text-3xl mx-auto'>Curently learning </h1>
-                <div className='flex flex-col lg:flex-row justify-evenly '>
+                <div className='flex lg:flex-row gap-6 justify-evenly '>
                     <div className='w-1/2'>
                         <div className='text-lg font-semibold leading-relaxed'>
                             Scaling Backends <span>from Cohort 2.0 by <a className="text-orange-500 underline font-light" href="https://www.youtube.com/@harkirat1">Harkirat Singh</a></span>

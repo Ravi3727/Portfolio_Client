@@ -81,7 +81,7 @@ function Skills() {
 
 
             </div>
-            <div className='w-full p-2  h-full mb-4 mt-52 lg:mt-10 gap-10 flex flex-col justify-evenly'>
+            <div className='w-full p-2  h-full mb-4 mt-64 lg:mt-10 gap-10 flex flex-col justify-evenly'>
                 <h1 className='text-orange-500 font-bold text-3xl mx-auto'>Curently learning </h1>
                 <div className='flex lg:flex-row gap-6 justify-evenly mx-auto'>
                     <div className='w-1/2'>

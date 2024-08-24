@@ -12,7 +12,7 @@ function Skills() {
     const { Mode } = useContext(AppContext);
     return (
         <div id="Skills" className='w-full h-screen overflow-y-auto overflow-x-hidden lg:mt-4 flex justify-evenly flex-col gap-4' style={{ backgroundColor: Mode ? 'white' : 'rgb(31 41 55)', color: Mode ? 'black' : 'white' }}>
-            <div className='w-[90%]  h-[2px] bg-yellow-400 mt-8 lg:float-right mx-auto lg:mb-12 '>
+            <div className='w-[90%] border-2 border-yellow-400 mt-8 lg:float-right mx-auto lg:mb-2 '>
             </div>
             <div className='group lg:text-7xl text-5xl font-extrabold h-28  flex flex-col gap-4  w-full items-center mt-14'>
                 <h1 className='w-full flex items-center justify-center'> My Skills</h1>
@@ -81,9 +81,9 @@ function Skills() {
 
 
             </div>
-            <div className='w-full p-2 lg:ml-[200px] h-full mb-4 mt-22  gap-10 flex flex-col justify-evenly'>
+            <div className='w-full p-2  h-full mb-4 mt-52 lg:mt-10 gap-10 flex flex-col justify-evenly'>
                 <h1 className='text-orange-500 font-bold text-3xl mx-auto'>Curently learning </h1>
-                <div className='flex lg:flex-row gap-6 justify-evenly '>
+                <div className='flex lg:flex-row gap-6 justify-evenly mx-auto'>
                     <div className='w-1/2'>
                         <div className='text-lg font-semibold leading-relaxed'>
                             Scaling Backends <span>from Cohort 2.0 by <a className="text-orange-500 underline font-light" href="https://www.youtube.com/@harkirat1">Harkirat Singh</a></span>

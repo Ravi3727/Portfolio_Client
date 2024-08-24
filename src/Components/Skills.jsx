@@ -11,7 +11,7 @@ AOS.init();
 function Skills() {
     const { Mode } = useContext(AppContext);
     return (
-        <div id="Skills" className='w-full h-full lg:mt-4' style={{ backgroundColor: Mode ? 'white' : 'rgb(31 41 55)', color: Mode ? 'black' : 'white' }}>
+        <div id="Skills" className='w-full h-screen overflow-y-auto overflow-x-hidden lg:mt-4 flex justify-evenly flex-col gap-4' style={{ backgroundColor: Mode ? 'white' : 'rgb(31 41 55)', color: Mode ? 'black' : 'white' }}>
             <div className='w-[90%]  h-[2px] bg-yellow-400 mt-8 lg:float-right mx-auto lg:mb-12 '>
             </div>
             <div className='group lg:text-7xl text-5xl font-extrabold h-28  flex flex-col gap-4  w-full items-center mt-14'>
@@ -81,7 +81,7 @@ function Skills() {
 
 
             </div>
-            <div className='w-[80%] lg:ml-[200px] h-full mb-4 mt-22 ml-12 gap-10 flex flex-col justify-evenly'>
+            <div className='w-full p-2 lg:ml-[200px] h-full mb-4 mt-22  gap-10 flex flex-col justify-evenly'>
                 <h1 className='text-orange-500 font-bold text-3xl mx-auto'>Curently learning </h1>
                 <div className='flex lg:flex-row gap-6 justify-evenly '>
                     <div className='w-1/2'>

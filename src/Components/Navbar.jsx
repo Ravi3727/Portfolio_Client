@@ -119,7 +119,7 @@ function Navbar({ sendDataToParent }) {
 
                                         <Link to="RateMe">
                                             <div className="hover:scale-110 transition-transform duration-2000 border-1 bg-orange-400 p-1 rounded-md text-white font-semibold flex flex-col hover:bg-orange-500 hover:cursor-pointer mt-2 w-28 text-xl text-center" onClick={closeMobileMenu}>
-                                                <div>Rate Me</div>
+                                                <div>Feedback</div>
                                                 <div className="flex gap-1 ">
                                                     <div className="ml-1">
                                                         <BiSolidStar />
@@ -204,7 +204,7 @@ function Navbar({ sendDataToParent }) {
 
                                 <Link to="RateMe">
                                     <div className="hover:scale-110 transition-transform duration-2000 border-1 bg-orange-400 p-1 rounded-md text-white font-semibold flex flex-col hover:bg-orange-500 hover:cursor-pointer text-sm w-20">
-                                        <div>Rate Me</div>
+                                        <div>Feedback</div>
                                         <div className="flex gap-1">
                                             <div>
                                                 <BiSolidStar />

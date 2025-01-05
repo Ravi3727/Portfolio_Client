@@ -190,7 +190,7 @@ function RateUs() {
                 {/* <Navbar/> */}
                 <div className='group flex flex-col justify-center items-center w-full'>
                     <h1 className='lg:text-6xl text-5xl lg:mt-16 mt-10 text-center'>Give Your Feedback</h1>
-                    <div className='h-[3px] lg:w-[600px] w-[200px] bg-yellow-400 rounded-lg shadow-b-3xl border-2 border-yellow-400 border-dashed mx-auto mt-2 -mb-16 lg:mb-0 opacity-0 group-hover:opacity-100 transition-opacity' ></div>
+                    <div className='h-[3px] lg:w-[600px] w-[200px] bg-yellow-400 rounded-lg shadow-b-3xl border-2 border-yellow-400 border-dashed mx-auto mt-2 -mb-16 lg:mb-0' ></div>
                 </div>
 
                 <div className='items-center h-screen justify-center flex flex-col lg:w-full lg:gap-16 w-full gap-12 flex-wrap'>

@@ -27,10 +27,8 @@ function Project() {
     };
     return (
         <>
-            <div className='w-full sm:flex-col justify-center items-center h-full lg:h-screen lg:overflow-hidden lg:mt-4'>
-
-
-                <div className='w-full h-[2px] bg-yellow-400 lg:float-right mt-6 mx-auto lg:ml-40'>
+            <div className='w-full sm:flex-col justify-center items-center mb-24 lg:mb-0 h-full lg:h-screen lg:overflow-hidden lg:mt-4'>
+                <div className=' w-full h-[2px] bg-yellow-400 lg:float-right mt-6 mx-auto lg:ml-40'>
                 </div>
                 <div className=' flex flex-col gap-8 h-full items-center lg:mt-60 mt-24'>
                     <div className='group lg:text-7xl text-5xl font-extrabold flex flex-col gap-4  w-full items-center'>
@@ -38,18 +36,16 @@ function Project() {
                         <div className=' lg:w-[300px] w-[170px] h-[3.5px] bg-yellow-400'></div>
                     </div>
 
-                    <div className='w-full lg:w-11/12 ml-24 lg:ml-0 grid grid-col-1 lg:grid-cols-3 gap-48 lg:gap-28 min-h-screen lg:h-full overflow-y-auto '>
-                    <div className=' rounded-lg min-h-full '>
+                    <div className=' flex flex-col lg:flex-row justify-evenly w-10/12 lg:ml-0 gap-12 lg:gap-10 h-full overflow-y-auto lg:mb-0'>
+                        <div className='rounded-lg min-h-full '>
                             <ProjectThird {...cardData3} />
                         </div>
-                        <div className='rounded-lg min-h-full mb-10'>
+                        <div className='rounded-lg min-h-full'>
                             <ProjectSecond {...cardData2} />
                         </div>
-                       
-                        <div className=' rounded-lg min-h-full mb-6'>
+                        <div className=' rounded-lg min-h-full'>
                             <ProjectOne {...cardData1} />
                         </div>
-                        
                     </div>
                 </div>
             </div>
@@ -58,4 +54,4 @@ function Project() {
 }
 
 export default Project
-
+// grid grid-col-1 lg:grid-cols-3
